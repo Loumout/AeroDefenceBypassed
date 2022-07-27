@@ -16,4 +16,6 @@ Seul erreur qu'il y a est une erreur qui n'affecte en rien l'anticheat ni ses fo
 
 J'ai de plus enlever la backdoor qu'il y avais, cela récuperé votre ligne mysql + votre clé patreon ^^
 
+Le code n'est pas lisible, mais cela devrait être le cas d'ici quelques jours ne vous en faites pas
+
 Vous pouvez utiliser cet anticheat a **vos risques et périls**
