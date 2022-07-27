@@ -1,14 +1,6 @@
-dependency 'AeroDefence'
-server_script '@AeroDefence/files/sv_trigger.lua'
-client_script '@AeroDefence/files/cl_trigger.lua'
-
-client_script '@AeroDefence/files/protect.lua'
-
-
-
-name "AeroDefence"
-description "FiveM AntiCheat - Best Protection Against Cheaters"
-author "aCollective"
+name "AeroDemerde"
+description "FiveM AntiCheat - Worst Protection Against Cheaters"
+author "Loumout > AeroDefence"
 version "2.1.3"
 
 
@@ -22,11 +14,8 @@ client_scripts {'dist/client.js', '**/client.*', 'files/cl_trigger.lua', 'files/
 server_exports {'ban','kick','screenshot','onCommand'}
 exports {'setBypassFreeCam', 'setBypassInvisible', 'setBypassGodMod'}
 
-dependencies { '/onesync', '/server:5181' } 
+dependencies { '/onesync'} 
 
 lua54 'yes'
-escrow_ignore {'data/*.*','documentation/*.*','files/cl_trigger.lua','files/sv_trigger.lua','files/protect.lua'}
 fx_version 'adamant'
-game 'gta5' 
-
-dependency '/assetpacks'
+game 'gta5'
