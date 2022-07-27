@@ -1,0 +1,133 @@
+[
+
+    {
+
+        "ANTICHEAT_NAME": "AeroDefence",
+        
+        "DEFAULT_BAN_REASON": "You have been banned by %s for cheating\n\nBan Id: %s",
+        "DEFAULT_KICK_REASON": "You have been kicked by %s for cheating",
+        "TOKENS_INVALID": "Hello %s\nYour tokens are invalid, try restarting your fivem launcher",
+        "BANNED": "You have been permanently banned from: SERVERNAME\n\nReason : %s\nBan Id : %s\nAuthor : %s",
+        "KICKED": "You have been kicked from: SERVERNAME\n\nReason : %s\nAuthor : %s",
+        "CHECKING_TOKENS": "Hello %s\nChecking your tokens [%s/%s]",
+        "CHECKING_IDENTIFIERS": "Hello %s\nChecking your identifiers [%s/%s]",
+        "NAME_BLACKLISTED": "Hello %s\nyour have blacklisted string (%s), please change it !",
+        "VPN_DETECTED": "Hello %s\nYou are using a VPN. Please disable and try again.",
+        "WELCOME": "Hello, %s\nWelcome to YOUR SERVER NAME",
+
+        "ANTI_TRIGGER": "Anti Trigger: %s",
+        "ANTI_EXPORTS_USE": "Anti Exports Use: %s - %s",
+        "ANTI_SOUND_PLAYER": "Anti Sound Play",
+        "ANTI_PLAYER_CRASHER": "Anti Player Crasher",
+        "ANTI_RESOURCE_STOP": "Anti Resource Stop: %s",
+        "ANTI_EULEN": "Anti Eulen",
+        "EULEN_DETECTION": "This player may be using eulen cheats",
+        "ANTI_INJECTION": "Anti Injection",
+        "ANTI_NUI_DEV_TOOLS": "Anti Nui Dev Tools",
+        "ANTI_MASS_TRIGGER": "Anti Mass Trigger: %s - %s",
+        "ANTI_BLACKLISTED_CRASH": "Anti BlackListed Crash: %s",
+        "ANTI_BLACKLISTED_TEXTURE": "Anti BlackListed Texture: %s",
+        "ANTI_MENYOO": "Anti Menyoo",
+
+        "ANTI_CLIENT_TRIGGER": "Anti Client Trigger: %s - %s", 
+        "ANTI_CLIENT_BLACKLISTED_EVENT": "Anti BlackListed Client Event: %s",
+        "ANTI_SERVER_BLACKLISTED_EVENT": "Anti BlackListed Server Event: %s",
+
+        "ANTI_BLACKLISTED_CHAT_WORD": "Anti BlackListed Chat Word: %s",
+        "ANTI_FAKE_CHAT_MESSAGE": "Anti Fake Chat Msg: %s",
+        "ANTI_MASS_CHAT_MESSAGE": "Anti Mass Chat Msg: %s",
+
+        "ANTI_GODMODE": "Anti GodMode",
+        "ANTI_FREECAM": "Anti FreeCam",
+        "ANTI_INVISIBLE": "Anti Invisible",
+        "ANTI_SPECTATE": "Anti Spectate",
+        "ANTI_INFINITE_STAMINA": "Anti Infinite Stamina",
+        "ANTI_NIGHT_VISION": "Anti Night Vision", 
+        "ANTI_THERMAL_VISION": "Anti Thermal Vision",
+        "ANTI_AFK_BYPASS": "Anti Afk Bypass",
+        "ANTI_SMALL_PLAYER_PED": "Anti Small Player Ped",
+        "ANTI_RAGDOLL": "Anti Ragdoll",
+        "ANTI_PLAYER_BLIP": "Anti Blips",
+        "ANTI_RADAR": "Anti Radar",
+        "ANTI_CLEAR_PED_TASK": "Anti Clear Ped Task", 
+        "ANTI_BLACKLISTED_TASK": "Anti BlackListed Task: %s",
+        "ANTI_BLACKLISTED_ANIMATION": "Anti BlackListed Animation: %s",
+        "ANTI_FAST_RUN": "Anti Fast Run: %s", 
+        "ANTI_NOCLIP": "Anti NoClip",
+        "ANTI_SUPER_JUMP": "Anti Super Jump",
+        "ANTI_GIVE_ARMOR": "Anti Give Armor: %s",
+        "ANTI_TELEPORT": "Anti Teleportation: %s",
+
+        "ENTITY_SPAWN_PROTECTION": "Entity Spawn Protection",
+
+        "ANTI_NOT_WHITELISTED_PROP": "Anti BlackListed Prop: %s",
+        "ANTI_MASS_PROP_SPAWN": "Anti Mass Prop Spawn: %s",
+        "ANTI_NOT_SCRIPT_PROP_SPAWN": "Anti Not Script Prop Spawn: %s",
+
+        "ANTI_MASS_VEHICLE_DELETE": "Anti Mass Vehicle Delete: %s",
+        "ANTI_VEHICLE_EXPLOITING": "Anti Vehicle Exploiting",
+        "ANTI_BLACKLISTED_VEHICLE": "Anti BlackListed Vehicle: %s",
+        "ANTI_NOT_COORDS_VEHICLE_DELETE": "Anti Not Coords Vehicle Delete: %s - %s",
+        "ANTI_MASS_VEHICLE_SPAWN": "Anti Mass Vehicle Spawn: %s",
+        "ANTI_NOT_SCRIPT_VEHICLE_SPAWN": "Anti Not Script Vehicle Spawn: %s",
+
+        "ANTI_MAX_VEHICLE_SPEED": "Anti Max Vehicle Speed: %s km/h",
+        "ANTI_VEHICLE_DAMAGE_MODIFIER": "Anti Vehicle Damage Modifier: %s",
+        "ANTI_VEHICLE_POWER_MODIFIER": "Anti Vehicle Power Modifier: %s",
+        "ANTI_VEHICLE_TOP_SPEED_MODIFIER": "Anti Vehicle Top Speed Modifier: %s",
+        "ANTI_VEHICLE_DEFENSE_MODIFIER": "Anti Vehicle Defense Modifier: %s",
+
+        "ANTI_NOT_WHITELISTED_PED": "Anti BlackListed Ped: %s",
+        "ANTI_MASS_PED_SPAWN": "Anti Mass Ped Spawn: %s",
+        "ANTI_NOT_SCRIPT_PED_SPAWN": "Anti Not Script Ped Spawn: %s",
+        "ANTI_NOT_WHITELISTED_PLAYER_PED": "Anti Not WhiteListed Player Ped: %s",
+
+        "ANTI_GIVE_WEAPON_TO_PLAYER": "Anti Give Weapon To Player: %s",
+        "ANTI_REMOVE_WEAPON_FROM_PLAYER": "Anti Remove Weapon From Player",
+        "ANTI_REMOVE_ALL_WEAPON_FROM_PLAYER": "Anti Remove All Weapons From Player",
+
+        "ANTI_SHOT": "Anti Shot: %s",
+        "ANTI_MASS_SHOT": "Anti Mass Shot: %s",
+        "ANTI_INFINITE_AMMO": "Anti Infinite Ammo: %s",
+        "ANTI_EXPLOSIVE_WEAPON": "Anti Explosive Weapon: %s",
+        "ANTI_BLACKLISTED_WEAPON": "Anti BlackListed Weapon: %s",
+        "ANTI_NOT_SCRIPT_WEAPON_PICKUP_SPAWN": "Anti Not Script PickUp Spawn: %s",
+
+        "ANTI_WEAPON_CLIP_MODIFIER": "Anti Weapon Clip Modifier: %s",
+        "ANTI_WEAPON_DEFENSE_MODIFIER": "Anti Weapon Defence Modifier: %s",
+        "ANTI_WEAPON_DAMAGE_MODIFIER": "Anti Weapon Damage Modifier: %s",
+        "ANTI_MELEE_DEFENSE_MODIFIER": "Anti Weapon Defence Modifier: %s",
+        "ANTI_MELEE_DAMAGE_MODIFIER": "Anti Weapon Damage Modifier: %s",
+
+        "ANTI_SHOT_ESX": "Anti Shot ESX: %s",
+        "ANTI_GIVE_WEAPON_ESX": "Anti Give Weapon ESX: %s",
+
+        "ANTI_NOT_WHITELISTED_EXPLOSION": "Anti BlackListed Explosion: %s",
+        "ANTI_MASS_EXPLOSION_SPAWN": "Anti Mass Explosion: %s",
+        "ANTI_MORTAL_EXPLOSION": "Anti Mortal Explosion",
+        "ANTI_SILENT_EXPLOSION": "Anti Silent Explosion",
+        "ANTI_INVISIBLE_EXPLOSION": "Anti Invisible Explosion",
+        "ANTI_CAMERA_SHAKE_EXPLOSION": "Anti Camera Shake Explosion",
+
+        "ANTI_MASS_FIRE_SPAWN": "Anti Mass Fire Spawn: %s",
+
+        "ANTI_NOT_WHITELISTED_PARTICLE": "Anti BlackListed Particle: %s",
+        "ANTI_PARTICLE_ON_PLAYER": "Anti Particle On Player: %s",
+        "ANTI_MASS_PARTICLE_SPAWN": "Anti Mass Particle Spawn: %s",
+
+        "ANTI_MASS_PROJECTILE_SPAWN": "Anti Mass Projectile Spawn: %s",
+        "ANTI_NOT_WHITELISTED_PROJECTILE_SPAWN": "Anti BlackListed Projectile: %s",
+
+        "PRINT_CONNECTION": "[~g~%s~s~] just connected !",
+        "PRINT_LEAVE": "[~g~%s~s~/~g~%s~s~] just left, reason: ~y~%s~s~",
+        "PRINT_BAN": "[~g~%s~s~/~g~%s~s~] have been banned by ~y~%s~s~ for ~y~%s~s~",
+        "PRINT_KICK": "[~g~%s~s~/~g~%s~s~] have been kicked by ~y~%s~s~ for ~y~%s~s~",
+        "PRINT_CLEAR": "[~g~%s~s~/~g~%s~s~] ~y~%s~s~ have been successfully cleared !",
+        "PRINT_SCAN": "(~g~%s~s~) Checking resource: [~r~%s~s~/~r~%s~s~]",
+        "PRINT_CONFIG_RELOADED": "Config Files Have Been ~g~Successfully~s~ reloaded !",
+        "PRINT_VEHICLE_CREATE": "[~g~%s~s~/~g~%s~s~] Just Created a vehicle: ~y~%s~s~",
+        "PRINT_PED_CREATE": "[~g~%s~s~/~g~%s~s~] Just Created a ped: ~y~%s~s~",
+        "PRINT_PROP_CREATE": "[~g~%s~s~/~g~%s~s~] Just Created a prop: ~y~%s~s~",
+        "PRINT_EXPLOSION_CREATE": "[~g~%s~s~/~g~%s~s~] Just Created a explosion: ~y~%s~s~"
+    }
+]

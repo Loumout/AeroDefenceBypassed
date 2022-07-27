@@ -1,0 +1,417 @@
+[
+    {
+        "LICENSE": "aero-crackedbitches",
+        "debugMode": true,
+
+        "Connecting": {
+            "printOnConnection": true,
+            "Anti_Null_Tokens": null,
+            "Anti_BlackListed_Player_Name": {
+                "active": true, 
+                "list": ["BLACKLISTED STRING IN PLAYER NAME"]
+            },
+            "Anti_VPN": {
+                "active": true, 
+                "list": ["WHITELISTED IP HERE"]
+            },
+            "presentCard": {
+                "active": true,
+                "timer": 1,
+                "image": "https://imgur.com/86Pmtdp.png",
+                "button": {
+                    "title": "DISCORD",
+                    "iconUrl": "https://imgur.com/86Pmtdp.png",
+                    "url": "https://discord.gg/aerodefence"
+                }
+            }
+        },
+
+        "Logs": {
+            "Active": true,
+            "General": "YOUR WEBHOOK HERE",
+            "Weapon": "YOUR WEBHOOK HERE",
+            "Entity": "YOUR WEBHOOK HERE",
+            "Resource": "YOUR WEBHOOK HERE",
+            "Explosion": "YOUR WEBHOOK HERE",
+            "Other": "YOUR WEBHOOK HERE",
+            "Screenshot": "YOUR WEBHOOK HERE",
+            "releated": {
+                "botName": "Your Bot Name",
+                "botImage": "https://imgur.com/86Pmtdp.png",
+                "showIpInLogs": true 
+            }
+        },
+        
+        "Ban": {
+            "playSound": "",
+            "hideBanReason": null,
+            "printOnBan": true
+        },
+
+        "Resource": {
+            "Anti_Eulen": 3,
+            "Anti_Player_Crasher": true,
+            "Anti_Resource_Stop": true,
+            "Anti_Injection": true,
+            "Anti_Sound_Play": 1,
+            "Anti_Menyoo": true,
+            "Trigger": {
+                "Anti_Trigger": {
+                    "active": true,
+                    "list": {
+                        "TRIGGER": ["RESOURCE ALLOWED TO RUN"]
+                    }
+                },
+                "Client": {
+                    "Protection": {
+                        "active": true, 
+                        "events": {
+                            "TRIGGER": ["RESOURCE ALLOWED TO RUN"]
+                        }
+                    },
+                    "Anti_BlackListed_Trigger": {
+                        "active": true, 
+                        "list": ["BLACKLISTED TRIGGER"]
+                    },
+                    "Anti_Exports_Use": {
+                        "active": true,
+                        "setBypassFreeCam": ["RESOURCE ALLOWED TO RUN THE EXPORT"],
+                        "setBypassInvisible": ["RESOURCE ALLOWED TO RUN THE EXPORT"],
+                        "setBypassGodMod": ["RESOURCE ALLOWED TO RUN THE EXPORT"],
+                        "setBypassTeleport": ["RESOURCE ALLOWED TO RUN THE EXPORT"]
+                    }
+                },
+                "Server": {
+                    "Anti_BlackListed_Trigger": {
+                        "active": true, 
+                        "events": ["EVENT TO BLACKLIST"]
+                    }
+                },
+                "Anti_Mass_Trigger_Use": {
+                    "active": 1, 
+                    "seconds": 1,
+                    "events": {
+                        "esx:JobPay": 5
+                    }
+                }
+            },
+            "Leave": {
+                "printOnLeave": true,
+                "Anti_BlackListed_Crash": {
+                    "active": true, 
+                    "list": [
+                        "gta-streaming-five.dll+4AE92",
+                        "citizen-scripting-lua.dll+3FA40B",
+                        "citizen-scripting-lua.dll+3FB324",
+                        "kernelbase.dll+3A799",
+                        "ntdll.dll+1E312",
+                        "ntdll.dll+FBF18",
+                        "Reliable network event overflow."
+                    ]
+                }
+            },
+            "Anti_BlackListed_Texture": {
+                "active": true, 
+                "list": [""]
+            },
+            "Chat": {
+                "Anti_Fake_Chat_Message": true,
+                "Anti_BlackListed_Chat_Word": {
+                    "active": true, 
+                    "list": ["nigger"]
+                },
+                "Anti_Mass_Chat_Message": {
+                    "active": 1, 
+                    "limit": 5,
+                    "seconds": 1
+                }
+            }
+        },
+
+        "Admin":{
+            "openKey": "F11"
+        },
+
+        "General": {
+            "Player_Check_Timer_Seconds": 5,
+            
+            "Anti_Godmode": 1,
+            "Anti_Invisible": 1,
+            "Anti_FreeCam": 1, 
+            
+            "Anti_Ragdoll": true,
+            "Anti_No_Head_Shot": true,
+            "Anti_Infinite_Stamina": true,
+            "Anti_Radar": true,
+            "Anti_Spectate": true,
+            "Anti_Afk_Bypass": true,
+            "Anti_Small_Player_Ped": true,
+            "Anti_Blips": true,
+            "Anti_NoClip": true,
+            "Anti_Super_Jump": true,
+            "Task": {
+                "Anti_Clear_Ped_Task": true,
+                "Anti_BlackListed_Task": {
+                    "active": true, 
+                    "list": []
+                }
+            },
+            "Vision": {
+                "thermal": true,
+                "night": true
+            },
+            "Anti_Fast_Run": {
+                "active": 1, 
+                "maxSpeed": 50
+            },
+            "Anti_Give_Armor": {
+                "active": true, 
+                "maxArmor": 100
+            },
+            "Anti_Teleport": {
+                "active": 1, 
+                "maxFootInSecond": 15
+            }
+        },
+
+        "Entity": {
+            "Entity_Check_Timer_Seconds": 5,
+            "Clean_When_Detect": true,
+            "Spawn_Protection": 3,
+            "Prop": {
+                "printOnCreate": true,
+
+                "Anti_Not_WhiteListed_Prop_Spawn":{
+                    "active": 1, 
+                    "list": ["WHITELITED PROP HERE", 12345]
+                },
+                "Anti_Not_Script_Prop_Spawn":{
+                    "active": 3, 
+                    "list": ["WHITELISTED RESOURCE SPAWN PROP"]
+                },
+                "Anti_Mass_Prop_Spawn": {
+                    "active": 1, 
+                    "limit": 5,
+                    "seconds": 1
+                }
+            },
+            "Ped": {
+                "printOnCreate": true,
+
+                "Anti_Not_WhiteListed_Ped_Spawn":{
+                    "active": 1, 
+                    "list": ["WHITELITED PED HERE", 12345]
+                },
+                "Anti_Not_Script_Ped_Spawn":{
+                    "active": 3, 
+                    "list": ["WHITELISTED RESOURCE SPAWN PED"]
+                },
+                "Anti_Not_WhiteListed_Player_Ped": {
+                    "active": true, 
+                    "list": ["player_zero", "mp_m_freemode_01","mp_f_freemode_01","a_m_y_hipster_01","a_m_y_skater_01","s_m_y_shop_mask","a_m_y_hipster_02","a_m_y_skater_02"]
+                },
+
+                "Anti_Mass_Ped_Spawn": {
+                    "active": 1, 
+                    "limit": 5,
+                    "seconds": 1
+                }
+            },
+            "Vehicle": {
+                "Anti_Vehicle_Exploiting": true,
+                "Anti_Vehicle_Fly": true,
+
+                "printOnCreate": true,
+
+                "Anti_BlackListed_Vehicle_Spawn": {
+                    "active": 3, 
+                    "list": ["adder"]
+                },
+                "Anti_Not_Script_Vehicle_Spawn":{
+                    "active": 3, 
+                    "list": ["WHITELISTED RESOURCE SPAWN VEHICLE"]
+                },
+                "Anti_Mass_Vehicle_Spawn": {
+                    "active": 1, 
+                    "limit": 5,
+                    "seconds": 1
+                },
+
+                "Anti_Mass_Vehicle_Delete": {
+                    "active": true, 
+                    "limit": 5,
+                    "seconds": 1
+                },
+    
+                "Modifier": {
+                    "Anti_Max_Vehicle_Speed": {
+                        "active": 1, 
+                        "maxSpeed": 500
+                    },
+                    "Anti_Vehicle_Damage_Modifier": {
+                        "active": 3, 
+                        "maxModifier": 15,
+                        "defaultModifier": 1
+                    },
+                    "Anti_Vehicle_Power_Modifier": {
+                        "active": 3, 
+                        "maxModifier": 15,
+                        "defaultModifier": 1
+                    },
+                    "Anti_Vehicle_Top_Speed_Modifier": {
+                        "active": 3, 
+                        "maxModifier": 15,
+                        "defaultModifier": 1
+                    },
+                    "Anti_Vehicle_Defense_Modifier": {
+                        "active": 3, 
+                        "maxModifier": 15,
+                        "defaultModifier": 1
+                    }
+                }
+            }
+        },
+
+
+        "Explosion": {
+            "Anti_Not_WhiteListed_Explosion_Spawn": {
+                "active": 1, 
+                "list": ["WHITELISTED EXPLOSION", 34]
+            },
+
+            "printOnCreate": true,
+
+            "Anti_Mortal_Explosion": 3,
+            "Anti_Silent_Explosion": 3,
+            "Anti_Invisible_Explosion": 3,
+            "Anti_Camera_Shake_Explosion": 1,
+
+            "Anti_Explosion_Damage": true,
+
+            "Anti_Mass_Explosion_Spawn": {
+                "active": 1, 
+                "limit": 5,
+                "seconds": 1
+            },
+
+            "Projectile": {
+                "Anti_Not_WhiteListed_Projectile": {
+                    "active": 1, 
+                    "list": []
+                },
+                "Anti_Mass_Projectile_Spawn": {
+                    "active": 1, 
+                    "limit": 5,
+                    "seconds": 1
+                }
+            },
+
+            "Ptfx": {
+                "Anti_Particle_On_Player": 1,
+
+                "Anti_Not_WhiteListed_Particle": {
+                    "active": 1, 
+                    "list": ["WHITELISTED PARTICLE"]
+                },
+                "Anti_Mass_Particle_Spawn": {
+                    "active": 1, 
+                    "limit": 5,
+                    "seconds": 1
+                }
+            },
+
+            "Fire": {
+                "stopFire": true, 
+                "Anti_Mass_Fire_Spawn": {
+                    "active": 1, 
+                    "limit": 5,
+                    "seconds": 1
+                }
+            }
+
+        },
+
+        "Weapon": {
+            "Anti_Infinite_Ammo": true,
+            "Anti_Aim_Assist": true,
+            "Anti_Explosive_Weapon": 1,
+            "Weapon_Protection": {
+                "Anti_Give_Weapon_To_Player": 1, 
+                "Anti_Remove_Weapon_From_Player": 1, 
+                "Anti_Remove_All_Weapons_From_Player": 1
+            },
+            "Anti_BlackListed_Weapon": {
+                "active": 1,
+                "list": ["BLACKLISTED WEAPON", "weapon_rpg"]
+            },
+            "Shot": {
+                "Anti_Shot": 3,
+                "Anti_Mass_Shot": {
+                    "active": 3, 
+                    "limit": 5,
+                    "seconds": 1
+                }
+            },
+            "PickUp": {
+                "Anti_Give_PickUp_To_Player": true, 
+                "Anti_Not_Script_Weapon_PickUp_Spawn": {
+                    "active": 1,
+                    "list": []
+                }
+            },
+            "Modifier": {
+                "Anti_Weapon_Clip_Modifier": true, 
+                "Anti_Weapon_Defense_Modifier": {
+                    "active": 1, 
+                    "maxModifier": 15,
+                    "defaultModifier": 1
+                },
+                "Anti_Weapon_Damage_Modifier": {
+                    "active": 1, 
+                    "maxModifier": 15,
+                    "defaultModifier": 1
+                },
+                "Anti_Melee_Defense_Modifier": {
+                    "active": 1, 
+                    "maxModifier": 15,
+                    "defaultModifier": 1
+                },
+                "Anti_Melee_Damage_Modifier": {
+                    "active": 1, 
+                    "maxModifier": 15,
+                    "defaultModifier": 1
+                }
+            }
+        },
+
+
+        "ESX": {
+            "Trigger": "esx:getSharedObject",
+            "WhiteList": {
+                "active": true, 
+                "list":{
+                    "GROUP HERE ": "GROUPE HERE",
+                    "owner": "admin",
+                    "_dev": "admin",
+                    "admin": "bypass"
+
+                }
+            },
+            "Weapon": {
+                "Shot": {          
+                    "Anti_Shot": 3
+                },
+                "Anti_Give_Weapon": {
+                    "active": 3, 
+                    "Item": {
+                        "active": null, 
+                        "list": {
+                            "WEAPON NAME": "ITEM NAME",
+                            "weapon_pistol": "pistol"
+                        }
+                    }
+                }
+            }
+        }
+    }
+]
