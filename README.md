@@ -19,3 +19,5 @@ J'ai de plus enlever la backdoor qu'il y avais, cela récuperé votre ligne mysq
 Le code n'est pas lisible, mais cela devrait être le cas d'ici quelques jours ne vous en faites pas
 
 Vous pouvez utiliser cet anticheat a **vos risques et périls**
+
+La prochaine fois vous réfléchirez à 2 fois avant de faire les fous dans des groupes ou ça lache les identifiants, clés, ip, mot de passes de tout vos utilisateurs ^^
