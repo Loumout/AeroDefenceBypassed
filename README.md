@@ -4,7 +4,7 @@ Voici la version d'AeroDefence datant du 7 juillet 2022
 
 Je l'ai bypass CFX moi même + bypass license moi même
 
-C'était ez, ces cons ont mis la ressource AeroDefence Gratuite sur le tebex, fallait juste payer la license
+C'était ez, ils ont mis la ressource AeroDefence Gratuite sur le tebex, fallait juste payer la license
 
 Ducoup j'ai bypass le système de license, j'espère vous m'en voulez pas ^^
 
@@ -14,7 +14,7 @@ Il vous suffit de faire **aerodefence help** dans la console et vous auez toutes
 
 Seul erreur qu'il y a est une erreur qui n'affecte en rien l'anticheat ni ses fonctions, j'ai fix le bug ^^
 
-J'ai de plus enlever la backdoor qu'il y avais, cela récuperé votre ligne mysql + votre clé patreon ^^
+Rectification, il n´y a pas de backdoor, le webhook ne renvoie rien
 
 Le code n'est pas lisible, mais cela devrait être le cas d'ici quelques jours ne vous en faites pas
 
