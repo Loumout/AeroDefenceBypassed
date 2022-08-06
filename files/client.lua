@@ -3971,7 +3971,7 @@ function L12_1()
         L2_2 = 121
         L0_2 = L0_2(L1_2, L2_2)
         if not L0_2 then
-          goto lbl_77
+          --goto lbl_77
         end
       end
       L0_2 = IsControlPressed
@@ -17930,7 +17930,7 @@ function L27_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
             if true ~= L14_2 then
               L14_2 = A3_2.Enabled
               if nil ~= L14_2 then
-                goto lbl_332
+                --goto lbl_332
               end
             end
             if L9_2 then
