@@ -14,8 +14,6 @@ Il vous suffit de faire **aerodefence help** dans la console et vous auez toutes
 
 Seul erreur qu'il y a est une erreur qui n'affecte en rien l'anticheat ni ses fonctions, j'ai fix le bug ^^
 
-Rectification, il n´y a pas de backdoor, le webhook ne renvoie rien
-
 Le code n'est pas lisible, mais cela devrait être le cas d'ici quelques jours ne vous en faites pas
 
 Vous pouvez utiliser cet anticheat a **vos risques et périls**
