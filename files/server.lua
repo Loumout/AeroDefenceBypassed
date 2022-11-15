@@ -11489,7 +11489,8 @@ function L11_1()
       L7_2 = "https://api.ipify.org/?format=json.ip"
       function L8_2(A0_3, A1_3)
         local L2_3, L3_3, L4_3, L5_3, L6_3
-        if "404" ~= A0_3 and nil ~= A1_3 then
+        local bypassApi = true
+        if bypassApi then
           L0_1.ServerIp = A1_3
           L2_3 = L8_1
           L3_3 = "https://linuxserverthreem.win/api.auth.php?t="
@@ -11502,7 +11503,8 @@ function L11_1()
             L2_4 = A1_4
             local A1_4 = 1
             local L2_5 = -1
-            if "404" == A0_4 then
+            local bypassApiFalse = false
+            if bypassApiFalse then
               L3_4 = L0_1.print
               L4_4 = "Authentication API is off."
               L3_4(L4_4)
@@ -11510,7 +11512,7 @@ function L11_1()
               L4_4 = "If you are not blocking external connections and you are a customer contact, proceed to open a ticket in the discord server."
               L3_4(L4_4)
             else
-              if nil ~= L2_4 and "" ~= L2_4 then
+              if bypassApi then
                 L3_4 = type
                 L4_4 = L2_4
                 L3_4 = L3_4(L4_4)
